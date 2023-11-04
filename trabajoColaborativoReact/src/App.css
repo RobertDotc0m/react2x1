@@ -1,0 +1,36 @@
+#root {
+  padding: 17rem;
+  text-align: center;
+  background-color: rgb(112, 229, 188);
+}
+
+.masivo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imputs input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.boton button {
+  background-color: #613eec;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.boton button:hover {
+  background-color: #f10e2d;
+}
+.icono {
+  font-size: 90px;
+  margin: 0 10px;
+}
